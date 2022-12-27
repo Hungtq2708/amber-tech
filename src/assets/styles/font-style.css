@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Averta Demo PE Cutted Demo'),
+    url('/src/assets/fonts/Averta-Demo/AvertaDemoPECuttedDemo-Regular.ttf') format('ttf'),
+    url('/src/assets/fonts/Averta-Demo/AvertaDemoPECuttedDemo-Regular.ttf') format('truetype');
+}

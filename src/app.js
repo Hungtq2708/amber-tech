@@ -1,16 +1,19 @@
-import { Footer } from './components/footer';
-import { Header } from './components/header';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Footer } from './common/footer';
+import { Header } from './common/header';
+import { ContactPage } from './pages/contact';
 import { HomePage } from './pages/home';
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <BrowserRouter>
       <Header />
-
-      <HomePage />
-
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

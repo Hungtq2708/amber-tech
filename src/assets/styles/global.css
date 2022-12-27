@@ -1,1 +1,15 @@
-@import url("../../tailwind.css");
+@import './font-style.css';
+@import url('../../tailwind.css');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Averta Demo PE Cutted Demo', sans-serif;
+  font-size: 16px;
+  overflow-y: hidden;
+}
