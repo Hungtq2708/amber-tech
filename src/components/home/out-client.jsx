@@ -1,6 +1,5 @@
 import { Text } from '../../common/text';
 import { Image } from '../../common/image';
-import { Layout } from '../../common/layout';
 
 import ggImg from '../../assets/images/gg.svg';
 import airbnbImg from '../../assets/images/airbnb.svg';
