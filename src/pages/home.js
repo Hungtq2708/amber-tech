@@ -1,5 +1,6 @@
 import { Layout } from '../common/layout';
 import { Text } from '../common/text';
+import { Business } from '../components/home/business';
 import { OutClient } from '../components/home/out-client';
 
 export const HomePage = () => {
@@ -10,6 +11,7 @@ export const HomePage = () => {
         description="Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services."
       />
       <OutClient />
+      <Business />
     </Layout>
   );
 };

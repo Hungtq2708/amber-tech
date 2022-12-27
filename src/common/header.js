@@ -10,7 +10,7 @@ export const Header = () => {
   let activeClassName = 'underline';
 
   return (
-    <Layout className="pt-[42px] pb-10">
+    <Layout className="pt-[42px] pb-10 sticky top-0 bg-white z-10">
       <nav>
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <Link to={'/'}>
@@ -24,7 +24,7 @@ export const Header = () => {
             aria-expanded="false"
           >
             <svg
-              class="fill-current h-3 w-3"
+              className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
