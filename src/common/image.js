@@ -6,7 +6,7 @@ export const Image = ({ src = '', className, ...props }) => {
       src={src}
       alt="Preview"
       {...props}
-      className={cx('rounded-lg inline-block object-cover', className)}
+      className={cx('inline-block object-cover', className)}
     />
   );
 };
