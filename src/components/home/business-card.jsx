@@ -13,7 +13,7 @@ export const BusinessCard = ({
   return (
     <div
       className={cx(
-        'px-8 pt-[39px] pb-[57px] border border-[#F2F2F2] rounded-[40px] w-[308px] shadow-3xl',
+        'px-8 pt-[39px] pb-[57px] border border-[#F2F2F2] rounded-[40px] w-[308px] shadow-3xl bg-white',
         className
       )}
     >
@@ -25,7 +25,7 @@ export const BusinessCard = ({
         title={title}
         titleClassName="text-2xl mb-[27px] !font-medium"
         description={description}
-        descriptionClassName="text-[#757575]"
+        descriptionClassName="text-[#757575] leading-[22px]"
       />
     </div>
   );

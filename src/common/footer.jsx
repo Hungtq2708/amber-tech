@@ -32,7 +32,7 @@ export const Footer = () => {
                 <h1 className="text-black text-xl font-semibold">{item.title}</h1>
                 <div className="grid grid-cols-1 text-sm text-black gap-4  mt-6 font-normal">
                   {item.items.map((subTitle, idx) => (
-                    <Link key={idx} href="#" legacyBehavior>
+                    <Link key={idx} to="#">
                       {subTitle}
                     </Link>
                   ))}

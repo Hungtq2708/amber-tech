@@ -14,6 +14,15 @@ module.exports = {
     fontSize: {
       ...defaultTheme.fontSize,
       40: ['40px', '49px'],
+      lg: ['18px', '29px'],
+      xl: ['20px', '25px'],
+      '2xl': [
+        '24px',
+        {
+          lineHeight: '30px',
+          fontWeight: '500',
+        },
+      ],
     },
   },
   plugins: [],
