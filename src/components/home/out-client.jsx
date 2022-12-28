@@ -14,7 +14,7 @@ export const OutClient = () => {
         titleClassName="mb-[17px]"
         description="Several selected clients, who already believe in our service."
         descriptionClassName="!text-lg !text-[#757575]"
-        className="md:col-span-3"
+        className="md:col-span-3 max-w-[336px]"
       />
 
       <div className="md:col-span-9 flex justify-between">

@@ -4,7 +4,7 @@ import { Layout } from './layout';
 import { NavLink } from 'react-router-dom';
 
 import logo from '../assets/images/logo.svg';
-import { MENUS } from '../constants/constants';
+import { MENUS_HEADER } from '../constants/constants';
 
 export const Header = () => {
   let activeClassName = 'underline';
@@ -34,7 +34,7 @@ export const Header = () => {
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
             <ul className="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-[60px] md:mt-0 md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-              {MENUS.map((menu, index) => (
+              {MENUS_HEADER.map((menu, index) => (
                 <li key={index}>
                   <NavLink
                     to={menu.to}

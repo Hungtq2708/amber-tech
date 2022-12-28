@@ -8,7 +8,7 @@ import analysisImg from '../../assets/images/analysis.svg';
 
 export const Business = () => {
   return (
-    <div className="relative flex items-center justify-between space-x-[91px]">
+    <div className="relative flex items-center justify-between space-x-[91px] mb-[112px]">
       <Text
         className="max-w-[396px]"
         title="How can we help your Business ?"
